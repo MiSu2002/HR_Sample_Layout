@@ -1,0 +1,47 @@
+<%- include('header'); -%>
+<body class="body1">
+
+    <div id="preloader">
+    <script>
+      var loader = document.getElementById('preloader');
+       window.addEventListener('load', function(){
+        loader.style.display = 'none';
+       });
+    </script>
+  </div>
+
+  
+        <nav class="nav navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid mt-1">
+                <h3 class="brand ms-5">XyZ</h3>
+                <ul class="navbar-nav ml-auto me-3">
+                    <li class="nav-item d-none d-lg-block">
+                        <a class="nav-link active me-5">Home</a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link me-5" href="#" onclick="parentNode.submit();">About</a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <a class="nav-link me-5" href="#" onclick="parentNode.submit();">Careers</a>
+                    </form>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <a class="nav-link me-5" href="#" onclick="parentNode.submit();">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <h5><a class="nav-link me-5" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></h5>
+                    </li>
+                </ul>
+                </div>
+              </div>
+            </nav>
+
+            <div class="container-fluid mt-5 vh-90">
+                <div class="center">
+                    <h2 class="mb-2 welcome">Welcome <%= user.name %><br><a href="/logout" style="font-family: 'Times New Roman', Times, serif; font-size: 20px;">(Logout)</a></h2>
+                    <i class="fa-solid fa-gears mt-5"></i>
+                <h5 class="heading mt-5 mb-5">SORRY<br>THE PAGE IS UNDER CONSTRUCTION</h5>
+                </div>
+            </div>
+
+<%- include('footer'); -%>

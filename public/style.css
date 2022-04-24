@@ -1,0 +1,146 @@
+.body1{
+    padding: 0;
+    background-image: url('https://mobimg.b-cdn.net/v3/fetch/22/22c713111385110f9bd66d4e2dfd9623.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+.body2{
+    padding: 0;
+    background-image: url('https://wallpaperaccess.com/full/2180978.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+.body3{
+    padding: 0;
+    background-image: url('https://wallpaperboat.com/wp-content/uploads/2021/04/23/76925/firewatch-22.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+.body4{
+    background-color: azure;
+}
+.body5{
+    padding: 0;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/312/711/679/firewatch-video-games-mountains-lake-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+#preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-image: url('https://cuevana3.pe/static/img/loading.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+    margin: 0;
+    background-size: 12%;
+    color: whitesmoke;
+}
+.brand{
+    font-size: 36px;
+    font-family: 'Montserrat';
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+}
+.nav-link{
+    font-size: 18px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+.fa-magnifying-glass{
+    font-size: 22px;
+    margin-top: 2px;
+}
+.nav{
+    background-color: rgba(255, 255, 255, 0.603);
+    margin: 3% 5% 7% 5%;
+    box-shadow: 0 4px 10px 0 rgba(207, 207, 207, 0.548);
+    border-radius: 50px;
+}
+.nav1{
+    margin: 0;
+}
+.heading{
+    font-family: 'Righteous';
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    opacity: 0.9;
+}
+.fa-gears{
+    color: white;
+    font-size: 80px;
+    opacity: 0.9;
+}
+.center{
+    text-align: center;
+    margin-top: 7%;
+}
+.bttn{
+    background-color: transparent;
+    opacity: 0.9;
+    color: rgb(252, 255, 60);
+    border: 2px solid rgb(252, 255, 99);
+    font-size: 24px;
+    font-family: 'Righteous';
+    padding: 12px 30px;
+    text-decoration: none;
+}
+h4{
+    color: white;
+    opacity: 0.9;
+}
+p{
+    color: white;
+    opacity: 0.6;
+}
+.bttn:hover{
+    color: black;
+    background-color: rgb(252, 255, 60);
+    opacity: 0.6;
+}
+.fof1{
+    font-family: 'Righteous';
+    font-size: 100px;
+    color: rgb(236, 97, 97);
+}
+.fof2{
+    font-family: 'Righteous';
+    font-size: 30px;
+}
+.fof3{
+    font-family: 'Righteous';
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+}
+.success-msg,
+.err-msg {
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    padding: 10px;
+    margin-bottom: 4%;
+    border-radius: 3px;
+}
+
+.success-msg {
+    color: #ffffff;
+    background-color: #20c997;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+.welcome{
+    margin-top: 4%;
+    font-family: 'Cinzel';
+    word-spacing: 10px;
+    background-color: rgba(255, 255, 255, 0.281);
+    padding: 2%;
+}
