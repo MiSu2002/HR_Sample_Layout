@@ -1,5 +1,13 @@
 const router = require("express").Router();
 const { body } = require("express-validator");
+const { Pool } = require('pg');
+
+const pool = new Pool({
+  connectionString: process.env.postgresql-flat-16385,
+  ssl: {
+    rejectUnauthorized: false
+  }
+});
 
 const {
     homePage,
