@@ -1,9 +1,18 @@
+html {
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
 .body1{
     padding: 0;
     background-image: url('https://mobimg.b-cdn.net/v3/fetch/22/22c713111385110f9bd66d4e2dfd9623.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .body2{
     padding: 0;
@@ -11,6 +20,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .body3{
     padding: 0;
@@ -18,6 +30,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .body4{
     background-color: azure;
@@ -28,6 +43,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 #preloader{
     position: fixed;
