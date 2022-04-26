@@ -8,6 +8,9 @@
   },
   "author": "SoumitaBasu",
   "license": "ISC",
+  "engines": {
+    "node": "16.13.1"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.0",
