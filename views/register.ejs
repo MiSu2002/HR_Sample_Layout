@@ -12,32 +12,26 @@
         </script>
       </div>
 
-      <nav class="nav1 navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid mt-1">
-            <h3 class="brand ms-5" style="color: rgba(245, 245, 245, 0.788); font-size: 25px;">XyZ</h3>
-            <ul class="navbar-nav ml-auto me-3">
-                <li class="nav-item d-none d-lg-block">
-                    <form action="/" method="post">
-                        <a class="nav-link me-5" style="font-size: 15px;" href="/" onclick="parentNode.submit();">About</a>
-                        <input type="hidden" name="mess" value="About"/>
-                    </form>
-                </li>
-                <li class="nav-item d-none d-lg-block">
-                  <form action="/career" method="post">
-                      <a class="nav-link me-5" style="font-size: 15px;" href="/career" onclick="parentNode.submit();">Careers</a>
-                      <input type="hidden" name="mess" value="Careers"/>
-                  </form>
-              </li>
-                <li class="nav-item d-none d-lg-block">
-                    <form action="/contact" method="post">
-                    <a class="nav-link me-5" style="font-size: 15px;" href="/contact" onclick="parentNode.submit();">Contact Us</a>
-                    <input type="hidden" name="mess" value="Contact"/>
-                </form>
-                </li>
-          </ul>
-          </div>
-        </div>
-      </nav>
+      <nav class="navbar justify-content-end navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <h3 class="brand navbar-brand ms-2" style="color: rgba(245, 245, 245, 0.788); font-size: 30px;">XyZ</h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+    <li class="nav-item" style="list-style-type: none;">
+      <a class="nav-link me-5" style="font-size: 15px; color: aliceblue;" href="/about" onclick="parentNode.submit();">About</a>
+    </li>
+    <li class="nav-item" style="list-style-type: none;">
+      <a class="nav-link me-5" style="font-size: 15px; color: aliceblue;" href="/career" onclick="parentNode.submit();">Careers</a>
+      </li>
+      <li class="nav-item" style="list-style-type: none;">
+        <a class="nav-link me-5" style="font-size: 15px; color: aliceblue;" href="/contact" onclick="parentNode.submit();">Contact Us</a>
+      </li>
+    </div>
+    </div>
+</nav>
       
         <section class="vh-90" style="opacity: 0.9;">
             

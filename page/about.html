@@ -49,16 +49,10 @@
                         <a class="nav-link active me-5">About</a>
                     </li>
                     <li class="nav-item d-none d-lg-block">
-                        <form action="/career" method="post">
                         <a class="nav-link me-5" href="/career" onclick="parentNode.submit();">Careers</a>
-                        <input type="hidden" name="mess" value="Careers"/>
-                    </form>
                     </li>
                     <li class="nav-item d-none d-lg-block">
-                        <form action="/contact" method="post">
                         <a class="nav-link me-5" href="/contact" onclick="parentNode.submit();">Contact Us</a>
-                        <input type="hidden" name="mess" value="Contact"/>
-                    </form>
                     </li>
                     <li class="nav-item">
                         <h5><a class="nav-link me-5" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></h5>
@@ -68,6 +62,11 @@
               </div>
             </nav>
 
+            <div class="container-fluid text-center mt-4 d-block d-lg-none">
+                        <a class="menu-active me-4">About</a>
+                        <a class="menu me-4" href="/career" onclick="parentNode.submit();">Careers</a>
+                        <a class="menu" href="/contact" onclick="parentNode.submit();">Contact Us</a>
+            </div>
                 
             <div class="container-fluid mt-5">
                 <div class="center">
