@@ -18,10 +18,6 @@ app.use(session({
     }
 }));
 
-app.use(express.static("public"));
-
-app.use(routes);
-
 app.get('/about',(req,res) => {
     res.sendFile(__dirname + '/page/about.html');
 });
@@ -33,6 +29,9 @@ app.get('/career',(req,res) => {
 app.get('/contact',(req,res) => {
     res.sendFile(__dirname + '/page/contact.html');
 });
+
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(routes);
 
 app.use((err, req, res, next) => {
     // console.log(err);

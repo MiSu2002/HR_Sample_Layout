@@ -58,7 +58,7 @@ exports.register = async (req, res, next) => {
         }
         
         res.render("register", {
-            msg: 'You have successfully registered. Please login.'
+            msg: 'You have successfully registered.'
         });
 
     } catch (e) {

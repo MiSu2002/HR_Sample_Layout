@@ -4,7 +4,6 @@
 
 <body class="body5">
 
-    <form action="/signup" method="post">
     <div id="preloader">
         <script>
           var loader = document.getElementById('preloader');
@@ -44,7 +43,7 @@
                 <div class="card-body p-4 p-md-5">
                   <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Login</h3>
 
-                  <form accept="/login" method="post">
+                  <form action="/login" method="post">
                       
                     <% if(typeof error !== 'undefined'){ %>
                         <div class="err-msg"><%= error %></div><% } %>
@@ -61,7 +60,7 @@
                     </div>
 
                     <div class="pt-2">
-                      <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
+                      <input class="btn btn-primary btn-lg" type="submit" value="Login" />
                       <p class="mt-4" style="color: black; opacity: 0.9;">Don't have an account?<a class="ms-2" href="/signup">Register Now</a></p>
                     </div>
       
